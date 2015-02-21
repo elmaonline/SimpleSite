@@ -29,7 +29,7 @@
 }
 
 .container{
-     margin-left: 10px;
+     margin-left: 0px;
 }
 
 html, body{
@@ -55,9 +55,9 @@ html, body{
 
 #gallery-container {
 
-    border: beige;
-    border-style:solid;
-    border-width:5px;
+    /*border: beige;*/
+    /*border-style:solid;*/
+    /*border-width:5px;*/
     /*top: 25%;*/
     /*height: 50%;*/
     margin-top: 100px;
@@ -82,6 +82,11 @@ html, body{
     background-color: pink;
 }
 
+.row{
+    margin-left:30px;
+}
+
+/*
 div {
 	margin-top: 5px;
-}
+}*/
