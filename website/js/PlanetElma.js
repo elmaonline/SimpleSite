@@ -64,12 +64,9 @@ PlanetElma.prototype.displayImages = function (data) {
 
 
 PlanetElma.prototype.SelectImage = function (id) {
-// get selection id
-  //  alert('img selected' + id);
-    
+
     var that = this;
 
-    //$.getJSON( "/imagebyparentid?pid="+id, function( data ) {
     $.getJSON( "/config/images.js", function( data ) {
 
         var idx =0;
@@ -117,42 +114,13 @@ PlanetElma.prototype.LoadMenus = function (parentId) {
             that.selectionList.populateList(data, that.SelectMenu, that, 'menu-container');
         });
     }
- 
-  //  else
-  //  {
-  //      $.getJSON( "/menusByParentId?pid="+parentId, function( data ) {
-  //          that.selectionList.populateList(data, that.SelectMenu, that,'menu-container');
-  //      });
-  //  }
-    
-    
 };
 
 PlanetElma.prototype.SelectMenu = function (evt) {
-    
-    // menu is clicked we end up here with selected menu ids
-    
-    //evt is NOW selection
-    
-	//this.selectionList.selection;
+
     var that = this;
     console.log('select menu:'+evt);
-  //  $.getJSON( "/menusByParentId?pid="+evt, function( data ) {
-  //      if(data.length >0)
-  //          that.subMenuList.populateList(data, that.SelectMenu, that,'sub-menu-container');
-  //  });
-  
-    
-    //var that = this;
 
-    
-    
-    // $.getJSON( "/imagebymenuid?mid="+evt, function( data ) {
-
-    //     that.displayImages(data);	
-        
-    // });
-    
      $.getJSON( "/config/images.js", function( data ) {
 
         var idx =0;
@@ -170,11 +138,5 @@ PlanetElma.prototype.SelectMenu = function (evt) {
         that.displayImages(data);	
          
     });
-    
-   // if(evt == 4)
-   // {
-   //       that.LoadMenus();	
-    //    that.LoadImages();
-   // }
     
 };
