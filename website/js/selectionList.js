@@ -1,5 +1,6 @@
 
-var SelectionList = function () {   
+var SelectionList = function (dataManager) { 
+    this.dataManager = dataManager;
     this.selection =[];
     
     this.multiSelect=false;
@@ -58,10 +59,11 @@ SelectionList.prototype = {
             
             if(container =='#menu-container' )
             {
-                // do we have any children if so add them
-                $.getJSON( "/menusByParentId?pid="+evt, function( data ) {
+                
+                that.dataManager.GetMenusByParentId(evt,function( data ) {
                     that.populateList(data, that.SelectMenu, that,'sub-menu-container');
                 });
+               
             }
            
             func.call(context,that.selection);

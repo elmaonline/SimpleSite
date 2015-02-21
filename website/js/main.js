@@ -1,6 +1,7 @@
 ﻿$(document).ready(function() {
 
-    var planetElma = new   PlanetElma(this);
+ 
+    var planetElma = new PlanetElma(new DataManager());
 
 	planetElma.LoadMenus();
 	

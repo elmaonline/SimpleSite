@@ -2,14 +2,14 @@ var DataManager, SelectionList;
 
 
 
-function PlanetElma(loader) {
+function PlanetElma(datamanager) {
 
-    this.dataManager = new DataManager();
+    this.dataManager =datamanager;// new DataManager();
 
 	this.selectedMenu=0;
 	//this.selection = [];
-	this.selectionList = new SelectionList();
-	this.subMenuList = new SelectionList();
+	this.selectionList = new SelectionList(datamanager);
+	this.subMenuList = new SelectionList(datamanager);
 	this.imageUrl='/images/testcontent/';
 }
 
