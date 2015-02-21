@@ -31,10 +31,6 @@ h1{
     font-style: normal
 }
 
-#nav-link{
-    font-family:lato, sans-serif;
-    font-size: 10px;
-}
 
 #navbar {
 	/*position: fixed;  bs grid can do this so we can remove it */ 
@@ -48,7 +44,7 @@ h1{
 li {
 	display: inline;
 	font-family: lato, sans-serif;
-	font-size: 12px;
+	font-size: 11px;
 	color: black;
 	padding: 5px;
 }
@@ -71,6 +67,10 @@ p{
 }
 
 /*
+#nav-link{
+    font-family:lato, sans-serif;
+    font-size: 10px;
+}
 #header {
 	height: 300px;
 	width: 100px;
