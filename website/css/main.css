@@ -90,7 +90,7 @@ html, body{
 }
 
 div {
-	height: 50px;
-	width: 100px;
+	height: 0px;
+	width: 900px;
 	margin: auto;
 }
