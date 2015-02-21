@@ -92,5 +92,6 @@ html, body{
 div {
 	height: 0px;
 	width: 900px;
-	margin: auto;
+	margin-top: 10px;
+	margin-left: 5px;
 }
