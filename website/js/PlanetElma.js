@@ -9,7 +9,7 @@ function PlanetElma(loader) {
 	this.selectionList = new SelectionList();
 	this.subMenuList = new SelectionList();
 	
-	this.imageUrl='/images/';
+	this.imageUrl='/images/testcontent/';
 	this.configUrl='/config/';
 }
 
