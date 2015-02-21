@@ -77,22 +77,27 @@ p{
 /* unvisited link */
 a:link {
     color: black;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
     color: black;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
     color: #2B17BF;
     text-decoration: none;
+    background-color: #FF704D;
 }
 
 /* selected link */
 a:active {
     color: #2B17BF;
+    font-family: lato, sans-serif;
+    
     text-decoration: none;
 }
 
