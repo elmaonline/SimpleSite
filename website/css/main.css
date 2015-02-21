@@ -72,7 +72,7 @@ html, body{
 
 .frame {
     float: left;
-    border-radius: 5px;
+    border-radius: 70px;
     border-style: solid;
     background-color: pink;
 }
