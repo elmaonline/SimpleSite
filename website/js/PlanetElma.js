@@ -17,9 +17,28 @@ function PlanetElma(loader) {
 PlanetElma.prototype.LoadImages = function () {
     var that =this;
     
-	$.getJSON( "/imagebyparentid?pid=0", function( data ) {
-	   that.displayImages(data);		 
-	});
+// 	$.getJSON( "/imagebyparentid?pid=0", function( data ) {
+// 	   that.displayImages(data);		 
+// 	});
+
+    $.getJSON( "/config/images.js", function( data ) {
+
+        var idx =0;
+        var parents = [];
+        
+        while(idx < data.length){
+            if(data[idx].parentCId ==0){
+                parents.push(data[idx]);
+            }
+            idx++;
+        }
+
+        data = parents;
+
+        that.displayImages(data);	
+         
+    });
+
 
 	$('body').on("click", ".frame", $.proxy(function (e) { 
         var id = e.target.attributes['data-id'].value;
@@ -50,7 +69,20 @@ PlanetElma.prototype.SelectImage = function (id) {
     
     var that = this;
 
-    $.getJSON( "/imagebyparentid?pid="+id, function( data ) {
+    //$.getJSON( "/imagebyparentid?pid="+id, function( data ) {
+    $.getJSON( "/config/images.js", function( data ) {
+
+        var idx =0;
+        var parents = [];
+        
+        while(idx < data.length){
+            if(data[idx].parentCId ==id){
+                parents.push(data[idx]);
+            }
+            idx++;
+        }
+
+        data = parents;
 
         that.displayImages(data);	
         
@@ -111,14 +143,32 @@ PlanetElma.prototype.SelectMenu = function (evt) {
   //  });
   
     
-    var that = this;
+    //var that = this;
 
     
     
-    $.getJSON( "/imagebymenuid?mid="+evt, function( data ) {
+    // $.getJSON( "/imagebymenuid?mid="+evt, function( data ) {
+
+    //     that.displayImages(data);	
+        
+    // });
+    
+     $.getJSON( "/config/images.js", function( data ) {
+
+        var idx =0;
+        var parents = [];
+        
+        while(idx < data.length){
+            if(data[idx].menuId ==evt){
+                parents.push(data[idx]);
+            }
+            idx++;
+        }
+
+        data = parents;
 
         that.displayImages(data);	
-        
+         
     });
     
    // if(evt == 4)
