@@ -67,6 +67,25 @@ p{
     transform: scale(10);
 }
 
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: #2B17BF;
+}
+
+/* selected link */
+a:active {
+    color: #2B17BF;
+}
 
 /*
 #nav-link{
