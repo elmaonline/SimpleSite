@@ -45,6 +45,7 @@ h1{
 li {
 	display: inline;
 	font-family: playfair display, sans-serif;
+	font-weight: 400;
 	font-size: 10px;
 	color: #2B17BF;
 	padding: 3px;
