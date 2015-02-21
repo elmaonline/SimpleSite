@@ -15,7 +15,7 @@ SelectionList.prototype = {
     populateList: function (data, func,context,container) {
        
         var selectEvents = [];
-		var newInner = "";
+		var newInner = "<ul>";
         
         
         // fill out HTML
@@ -31,16 +31,19 @@ SelectionList.prototype = {
 			var arIdx = jQuery.inArray(lmenuid, this.selection);
 
             if (arIdx >= 0) { // selected
-                newInner+= '<a id ="menu'+ lmenuid + '" href="" class ="mitem highLightRow">'+ldisplayname+hidPID+'</a>'; 			
+                newInner+= '<a id ="menu'+ lmenuid + '" href="" class ="highLightRow">'+ldisplayname+hidPID+'</a>'; 			
             }
             else {
-                newInner+= '<a id ="menu'+ lmenuid + '" href="" class ="mitem">'+ldisplayname+hidPID+'</a>'; 			
+                newInner+= '<a id ="menu'+ lmenuid + '" href="" >'+ldisplayname+hidPID+'</a>'; 			
             }
 			
 			selectEvents.push({ key: 'menu' + lmenuid, value: String(lmenuid) });			
 		  });
 	  
+	    
 	    container = '#' + container;
+	    
+	    newInner += '</ul>';
 	    
 		$(container).html(newInner);
 			

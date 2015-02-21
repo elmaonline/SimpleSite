@@ -44,7 +44,8 @@ h1{
 
 li {
 	display: inline;
-	font-family: lato, sans-serif;
+	font-family: playfair display, serif;
+	<link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 	font-size: 10px;
 	color: #2B17BF;
 	padding: 3px;

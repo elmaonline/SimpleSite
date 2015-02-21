@@ -67,7 +67,7 @@ PlanetElma.prototype.LoadMenus = function (parentId) {
         parentId =0;
         
         this.dataManager.GetMenusByParentId(parentId, function(data){
-            that.selectionList.populateList(data, that.SelectMenu, that, 'menu-container');
+            that.selectionList.populateList(data, that.SelectMenu, that, 'navbar');
         });
     }
      
