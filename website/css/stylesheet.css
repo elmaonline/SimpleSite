@@ -88,9 +88,9 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #2B17BF;
+    color: white;
     text-decoration: none;
-    background-color: #FF704D;
+    background-color: #2B17BF;
 }
 
 /* selected link */
