@@ -39,7 +39,10 @@ h1{
 #navbar {
 	/*position: fixed;  bs grid can do this so we can remove it */ 
 	top:10px;
-	margin-left: 100px;
+	margin-top: 20px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	margin-left: 5px;
 	/*left:50%;bs grid can do this so we can remove it */
 	/*margin-left:-254px;bs grid can do this so we can remove it */
 	text-align: right;
