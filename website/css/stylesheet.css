@@ -44,16 +44,18 @@ h1{
 
 li {
 	display: inline;
-	font-family: lato, sans-serif;
-	font-size: 10px;
+	font-family: playfair display, sans-serif;
+	font-size: 5px;
 	color: #2B17BF;
 	padding: 3px;
 }
 
+/*
 p{
     font-family:lato, sans-serif;
     font-size: 12px;
 }
+*/
 
 #header {
     margin-top: 5px;
