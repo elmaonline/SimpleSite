@@ -1,6 +1,6 @@
 function DataManager() {
  
-	this.imageUrl='/images/testcontent/';
+	
 	this.configUrl='/config/';
 }
 
