@@ -31,10 +31,10 @@ SelectionList.prototype = {
 			var arIdx = jQuery.inArray(lmenuid, this.selection);
 
             if (arIdx >= 0) { // selected
-                newInner+= '<a id ="menu'+ lmenuid + '" href="" class ="highLightRow">'+ldisplayname+hidPID+'</a>'; 			
+                newInner+= '<li><a id ="menu'+ lmenuid + '" href="" class ="highLightRow">'+ldisplayname+hidPID+'</a></li>'; 			
             }
             else {
-                newInner+= '<a id ="menu'+ lmenuid + '" href="" >'+ldisplayname+hidPID+'</a>'; 			
+                newInner+= '<li><a id ="menu'+ lmenuid + '" href="" >'+ldisplayname+hidPID+'</a></li>'; 			
             }
 			
 			selectEvents.push({ key: 'menu' + lmenuid, value: String(lmenuid) });			
