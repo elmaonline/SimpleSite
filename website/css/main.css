@@ -77,6 +77,10 @@ html, body{
     background-color: pink;
 }
 
+.col {
+    margin-left: 10px;
+}
+
 div {
 	margin-top: 5px;
 }
