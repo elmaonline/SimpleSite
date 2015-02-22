@@ -195,7 +195,8 @@ a:active {
   
     margin-left: 10px;
     
-    border-style:single;
+    border-style:solid;
+    
     border-color: green;
 }
 
