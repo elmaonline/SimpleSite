@@ -79,13 +79,13 @@ p{
 
 /* unvisited link */
 a:link {
-    color: #5C5C5C;
+    color: #2E2E2E;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #5C5C5C;
+    color: #2E2E2E;
     text-decoration: none;
 }
 
@@ -99,10 +99,10 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #2B17BF;
-    font-family: lato, sans-serif;
-    
+    color: white;
     text-decoration: none;
+    background-color: #2B17BF;
+    padding:0.3;
 }
 
 /*
