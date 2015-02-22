@@ -1,11 +1,11 @@
 .twitterbird {
     width: 350px;
-height: 300px;
-display: block;
- background:transparent url('/images/strad_feat2.png');
- background-size: 350px 300px;
- background-repeat: no-repeat;
- 
+    height: 300px;
+    display: inline-block;
+    background:transparent url('/images/strad_feat2.png');
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    vertical-align: middle;
  
 }
 
