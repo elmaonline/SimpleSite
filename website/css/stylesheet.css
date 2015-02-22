@@ -54,7 +54,7 @@
 /*}*/
 
 .col{
-    margin-top: 10px;
+    margin-top: 5px;
     position:relative;
     display:inline-block;
    /*filter: alpha(opacity=100);  For IE8 and earlier */
@@ -155,7 +155,7 @@ p{
 
 #header {
     margin-top: 8px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	height: 90px;
 	margin-left: -5px;
 }
