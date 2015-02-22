@@ -82,7 +82,7 @@ PlanetElma.prototype.SelectMenu = function (evt) {
     var that = this;
     console.log('select menu:'+evt);
 
-    if(evt == undefined || evt == null) return ;
+    if(evt == undefined) return ;
     
     this.dataManager.GetImagesByMenuId(evt, function(data){
         that.displayImages(data);
