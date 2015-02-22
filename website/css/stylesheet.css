@@ -178,7 +178,7 @@ a:active {
 
 
 
-.project {
+.project1 {
     /*display:inline-block;*/
     padding: 15px;
     height:464px;
@@ -186,6 +186,13 @@ a:active {
     margin-left: 10px;
 }
 
+.project2 {
+    /*display:inline-block;*/
+    padding: 15px;
+    height:464px;
+    width:600px;
+    margin-left: 10px;
+}
 
 
 /*
