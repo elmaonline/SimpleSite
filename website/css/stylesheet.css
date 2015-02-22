@@ -182,7 +182,7 @@ a:active {
     /*display:inline-block;*/
     padding: 15px;
     max-height:464px;
-    max-height:345px;
+    max-width:345px;
     margin-left: 10px;
 }
 
