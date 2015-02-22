@@ -22,10 +22,12 @@
 
 	planetElma.LoadMenus();
 	
+	
+	
 	//,qs["menu"],qs["img"]
 	
     planetElma.SelectMenu(qs["menu"]);
 
-
+    planetElma.LoadImages();
 
 });
