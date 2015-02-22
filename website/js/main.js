@@ -18,11 +18,13 @@
 
   
   
-    var planetElma = new PlanetElma(new DataManager(),qs["menu"],qs["img"]);
+    var planetElma = new PlanetElma(new DataManager());
 
 	planetElma.LoadMenus();
 	
-//    planetElma.LoadImages();
+	//,qs["menu"],qs["img"]
+	
+    planetElma.SelectMenu(qs["menu"]);
 
 
 
