@@ -114,11 +114,10 @@ img {
 img:hover {
     opacity: 0.5;
     filter: alpha(opacity=50); /* For IE8 and earlier */
+    color: orange; 
+    text-decoration: none
 } 
 
-#secondary .img a:hover {
-    border: 0;
-}
 
 /*
 #nav-link{
