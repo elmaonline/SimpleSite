@@ -93,7 +93,7 @@ b{
 }
 
 h1{
-    style ="font-family: Playfair Display; 
+    style ="font-family: Playfair Display, serif;
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
     text-transform: uppercase;
     letter-spacing: 0.4px;
@@ -199,6 +199,17 @@ a:active {
     border:1px solid #E8E8E8;
 }
 
+.title {
+    style ="font-family: Playfair Display, serif;
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
+    text-transform: uppercase;
+    /*letter-spacing: 0.4px;*/
+    font-size: 15px;
+    text-align: left;
+    line-height: 10.6em;
+    font-weight: 500;
+    font-style: normal
+}
 
 /*
 #nav-link{
