@@ -180,6 +180,7 @@ a:active {
 
 .project {
     /*display:inline-block;*/
+    border: 1px white;
     padding-left: 60px;
 }
 
