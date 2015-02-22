@@ -54,7 +54,7 @@
 /*}*/
 
 .col{
-    margin-top: 5px;
+    margin-top: 30px;
     position:relative;
     display:inline-block;
    /*filter: alpha(opacity=100);  For IE8 and earlier */
@@ -129,7 +129,7 @@ p{
 	/*margin-left:-254px;bs grid can do this so we can remove it */
 	text-align: right;
 	margin-right: 50px;
-	margin-top: 40px;
+	margin-top: 23px;
 }
 
 li {
