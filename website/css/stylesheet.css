@@ -1,8 +1,10 @@
+
+
 .gallery-image {
     width: 300px;
     height: 227px;
     display: inline-block;
-    background: transparent url('/images/strad_feat2.png');
+    /*background: transparent url('/images/strad_feat2.png');*/
     background-size: 300px 227px;
     background-repeat: no-repeat;
     vertical-align: middle;
@@ -15,6 +17,23 @@
    background-repeat: no-repeat;
    vertical-align: middle;
 }
+
+.g1-image{
+    background: transparent url('/images/strad_feat1.png');
+}
+
+.g2-image{
+    background: transparent url('/images/strad_feat2.png');
+}
+
+.g3-image{
+    background: transparent url('/images/strad_feat3.png');
+}
+
+.g4-image{
+    background: transparent url('/images/strad_feat4.png');
+}
+
 
 
 
