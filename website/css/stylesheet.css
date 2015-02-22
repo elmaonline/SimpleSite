@@ -87,8 +87,8 @@ h1{
     font-family: Playfair Display, serif;
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
     text-transform: uppercase;
-    letter-spacing: 0.4px;
-    font-size: 15px;
+    /*letter-spacing: 0.4px;*/
+    font-size: 10px;
     text-align: left;
     line-height: 10.6em;
     font-weight: 500;
