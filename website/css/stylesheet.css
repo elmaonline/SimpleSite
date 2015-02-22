@@ -200,13 +200,11 @@ a:active {
 }
 
 .title {
-    style ="font-family: Playfair Display, serif;
-    <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
+    font-family: Playfair Display, serif;
     text-transform: uppercase;
     /*letter-spacing: 0.4px;*/
     font-size: 15px;
     text-align: left;
-    line-height: 10.6em;
     font-weight: 500;
     font-style: normal
 }
