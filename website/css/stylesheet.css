@@ -79,13 +79,13 @@ p{
 
 /* unvisited link */
 a:link {
-    /*color: black;*/
+    color: #5C5C5C;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    /*color: black;*/
+    color: #5C5C5C;
     text-decoration: none;
 }
 
