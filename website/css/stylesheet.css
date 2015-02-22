@@ -1,8 +1,8 @@
 .twitterbird {
-     max-width : 300px;
-    max-height: 350px;
-    margin-left: 0px;
-    margin-right: 0px;
+ margin-bottom: 10px;
+ width: 160px;
+ height:160px;
+ display:block;
  background:transparent url('/images/strad_feat2.png') center top no-repeat;
 }
 
