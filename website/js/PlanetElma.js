@@ -17,11 +17,12 @@ function PlanetElma(datamanager, initialMenu, initialImage) {
 PlanetElma.prototype.LoadImages = function () {
     var that =this;
 
-    this.dataManager.GetImagesByParentId(0, function(data){
-        that.displayImages(data);
-    });
+    // this.dataManager.GetImagesByParentId(0, function(data){
+    //     that.displayImages(data);
+    // });
 
 	$('body').on("click", ".frame", $.proxy(function (e) { 
+        console.log('image clicked');
         var id = e.target.attributes['data-id'].value;
         
         this.SelectImage(id); 
