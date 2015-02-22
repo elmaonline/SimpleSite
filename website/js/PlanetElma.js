@@ -2,7 +2,7 @@ var DataManager, SelectionList;
 
 
 
-function PlanetElma(datamanager) {
+function PlanetElma(datamanager, initialMenu, initialImage) {
 
     this.dataManager =datamanager;// new DataManager();
 
