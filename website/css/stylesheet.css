@@ -7,9 +7,10 @@
 .col{
     position:relative;
     display:inline-block;
+    max-width : 300px;
+    max-height: 350px;
     margin-top: 5px;
         /*filter: alpha(opacity=100);  For IE8 and earlier */
-                      display:block; 
                       background: transparent url('/images/strad_feat3.png') center top no-repeat;
 }
 
