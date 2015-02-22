@@ -1,4 +1,4 @@
-﻿
+
 /*.menu*/
 /*{*/
 /*       position: relative;*/
@@ -90,3 +90,8 @@ html, body{
 div {
 	margin-top: 5px;
 }*/
+
+a:hover {
+    color: green;
+    border-color: purple;
+}
