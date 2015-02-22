@@ -5,7 +5,7 @@
     height: 227px;
     display: inline-block;
     /*background: transparent url('/images/strad_feat2.png');*/
-    background-size: 300px 227px;
+    /*background-size: 300px 227px;*/
     background-repeat: no-repeat;
     vertical-align: middle;
  
@@ -20,18 +20,22 @@
 
 .g1-image{
     background: transparent url('/images/strad_feat1.png');
+    background-size: 300px 227px;
 }
 
 .g2-image{
     background: transparent url('/images/strad_feat2.png');
+    background-size: 300px 227px;
 }
 
 .g3-image{
     background: transparent url('/images/strad_feat3.png');
+    background-size: 300px 227px;
 }
 
 .g4-image{
     background: transparent url('/images/strad_feat4.png');
+    background-size: 300px 227px;
 }
 
 
