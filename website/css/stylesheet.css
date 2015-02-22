@@ -95,6 +95,16 @@ h1{
     font-style: normal
 }
 
+h2{
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.4px;*/
+    font-size: 9px;
+    text-align: left;
+    line-height: 10.6em;
+    font-weight: 500;
+    font-style: normal
+}
 
 #navbar {
 	/*position: fixed;  bs grid can do this so we can remove it */ 
