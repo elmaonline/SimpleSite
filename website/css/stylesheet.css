@@ -11,7 +11,6 @@
     position:relative;
     display:inline-block;
    /*filter: alpha(opacity=100);  For IE8 and earlier */
-    background: transparent url('/images/strad_feat3.png') center top no-repeat;
 }
 
 .col:hover {
