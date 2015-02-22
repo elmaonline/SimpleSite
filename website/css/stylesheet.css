@@ -181,8 +181,8 @@ a:active {
 .project1 {
     /*display:inline-block;*/
     padding: 15px;
-    height:464px;
-    width:345px;
+    max-height:464px;
+    max-height:345px;
     margin-left: 10px;
 }
 
