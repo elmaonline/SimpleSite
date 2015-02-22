@@ -1,4 +1,4 @@
-.twitterbird {
+.gallery-image {
     width: 300px;
     height: 227px;
     display: inline-block;
@@ -9,12 +9,15 @@
  
 }
 
-.twitterbird:hover {
+.gallery-image:hover {
    background:transparent url('/images/strad_feat1.png');
    background-size: 300px 227px;
    background-repeat: no-repeat;
    vertical-align: middle;
 }
+
+
+
 
 
 .thumb{
