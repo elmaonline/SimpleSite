@@ -109,12 +109,18 @@ a:active {
 img {
 
     filter: alpha(opacity=100); /* For IE8 and earlier */
+                      width: 185px; 
+                      height:185px; 
+                      display:block; 
+                      background-image: 
+                      url('img/duck.png');
 }
 
 img:hover {
 
     filter: alpha(opacity=50); /* For IE8 and earlier */
     text-decoration: none;
+    background-image: url('img/peng.png');
 } 
 
 
