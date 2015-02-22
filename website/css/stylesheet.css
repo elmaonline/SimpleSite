@@ -112,7 +112,7 @@ img {
 }
 
 img:hover {
-    opacity: 1.0;
+    opacity: 0.2;
     filter: alpha(opacity=40); /* For IE8 and earlier */
 } 
 
