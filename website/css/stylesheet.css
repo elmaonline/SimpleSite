@@ -118,7 +118,7 @@ img:hover {
 
     filter: alpha(opacity=50); /* For IE8 and earlier */
     text-decoration: none;
-    background-image: url('/images/strad_feat4.png');
+    background-image: url("/images/strad_feat4.png");
 } 
 
 
