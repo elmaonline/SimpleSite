@@ -178,19 +178,22 @@ a:active {
 
 
 
-.project {
-    /*display:inline-block;*/
+/*.project {
+    /*display:inline-block;
     padding: 15px;
     max-height:464px;
-    /*max-width:345px;*/
+    /*max-width:345px;
     margin-left: 10px;
-}
+    border: single ;
+}*/
 
-.project2 {
-    /*display:inline-block;*/
-    height:464px;
-    width:664px;
+.project {
+    padding: 15px;
+    width: 50%;
+    max-height: 400px;
+    width: auto;
     margin-left: 10px;
+    border: single;
 }
 
 
