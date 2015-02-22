@@ -181,7 +181,9 @@ a:active {
 .project {
     /*display:inline-block;*/
     padding: 15px;
-    box-shadow: 10px 10px 5px ##CFCFCF;
+    height:630px;
+    width:200px;
+    margin-left: 10px;
 }
 
 
