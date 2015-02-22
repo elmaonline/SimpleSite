@@ -109,10 +109,11 @@ p{
     /*text-transform: uppercase;*/
     /*letter-spacing: 0.4px;*/
     font-size: 9px;
+    letter-spacing: 0.4px;
     text-align: left;
-    line-height: 10.6em;
     font-weight: 500;
     margin-top: 0px;
+    margin-left: 10px;
 }
 
 
