@@ -116,7 +116,7 @@ img:hover {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 } 
 
-#secondary .widget_text a:hover {
+#secondary .img a:hover {
     border: 0;
 }
 
