@@ -165,8 +165,7 @@ li {
 	display: inline;
 	font-family: playfair display, serif;
 	/*text-transform: uppercase;*/
-	font-size: 10px;
-	font-style: italic;
+	font-size: 9px;
 	/*letter-spacing: 0.3px;*/
 	/*color: #2B17BF;*/
 	color: #5C5C5C;
@@ -191,8 +190,6 @@ a:visited {
 a:hover {
     color: #FD43BD;
     text-decoration: none;
-    font-family: playfair display, serif;
-    font-style: normal;
     /*background-color: #2B17BF;*/
     padding:0.3;
 }
