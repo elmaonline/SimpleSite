@@ -57,6 +57,7 @@
 /*}*/
 
 .col{
+    margin-left: 30px;
     margin-top: 5px;
     position:relative;
     display:inline-block;
@@ -83,7 +84,7 @@ b{
 }
 
 .project {
-    height:400px;
+    height:450px;
     width:auto;
     margin-left: 10px;
     padding:2px;
