@@ -188,9 +188,9 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: white;
+    color: FD43BD;
     text-decoration: none;
-    background-color: #2B17BF;
+    /*background-color: #2B17BF;*/
     padding:0.3;
 }
 
