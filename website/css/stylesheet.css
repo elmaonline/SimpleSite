@@ -192,6 +192,7 @@ a:hover {
     color: #FD43BD;
     text-decoration: none;
     font-family: playfair display, serif;
+    font-style: normal;
     /*background-color: #2B17BF;*/
     padding:0.3;
 }
