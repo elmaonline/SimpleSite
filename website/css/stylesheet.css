@@ -163,9 +163,9 @@ p{
 
 li {
 	display: inline;
-	font-family: lato, sans-serif;
+	font-family: playfair display, serif;
 	/*text-transform: uppercase;*/
-	font-size: 10px;
+	font-size: 8px;
 	/*letter-spacing: 0.3px;*/
 	/*color: #2B17BF;*/
 	color: #5C5C5C;
@@ -188,7 +188,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: FD43BD;
+    color: #FD43BD;
     text-decoration: none;
     /*background-color: #2B17BF;*/
     padding:0.3;
