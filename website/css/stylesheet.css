@@ -156,16 +156,16 @@ p{
 	top:10px;
 	/*left:50%;bs grid can do this so we can remove it */
 	/*margin-left:-254px;bs grid can do this so we can remove it */
-	text-align: left;
-	margin-right: 30px;
+	/*text-align: left;*/
+	margin-right: 200px;
 	margin-top: 23px;
 }
 
 li {
 	display: inline;
-	font-family: playfair display, serif;
+	font-family: lato, sans-serif;
 	/*text-transform: uppercase;*/
-	font-size: 9px;
+	font-size: 10px;
 	/*letter-spacing: 0.3px;*/
 	/*color: #2B17BF;*/
 	color: #5C5C5C;
@@ -188,7 +188,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #FD43BD;
+    color: white;
     text-decoration: none;
     /*background-color: #2B17BF;*/
     padding:0.3;
