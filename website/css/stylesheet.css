@@ -191,7 +191,7 @@ a:visited {
 a:hover {
     color: #FD43BD;
     text-decoration: none;
-    
+    font-family: playfair display, serif;
     /*background-color: #2B17BF;*/
     padding:0.3;
 }
