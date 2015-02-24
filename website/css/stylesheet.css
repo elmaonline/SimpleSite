@@ -157,8 +157,8 @@ p{
 	top:10px;
 	/*left:50%;bs grid can do this so we can remove it */
 	/*margin-left:-254px;bs grid can do this so we can remove it */
-	/*text-align: left;*/
-	margin-right: 0px;
+	text-align: left;
+	margin-left: 0px;
 	margin-top: 27px;
 }
 
