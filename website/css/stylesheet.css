@@ -117,7 +117,7 @@ h1{
 h2{
     font-family: Playfair Display, serif;
     /*text-transform: uppercase;*/
-    /*letter-spacing: 0.4px;*/
+    letter-spacing: 0.4px;
     color: #ADADAD;
     font-size: 8.5px;
     font-style: italic;
@@ -168,7 +168,7 @@ li {
 	text-transform: uppercase;
 	font-size: 8.5px;
 	/*letter-spacing: 0.3px;*/
-	color: #FD43BDF;
+	color: #2B17BF;
 	/*color: #FD43BD*/
 	/*#5C5C5C*/;
 	padding: 3px;
