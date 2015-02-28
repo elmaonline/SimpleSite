@@ -101,6 +101,8 @@ b{
     font-style: normal
 }
 
+
+
 h1{
     font-family: Playfair Display, serif;
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>";
@@ -157,9 +159,15 @@ p{
 	top:10px;
 	/*left:50%;bs grid can do this so we can remove it */
 	/*margin-left:-254px;bs grid can do this so we can remove it */
-	text-align: left;
+	text-align: right;
 	margin-left: 0px;
 	margin-top: 27px;
+}
+
+
+ul{
+    margin: 0; 
+    padding: 0;
 }
 
 li {
