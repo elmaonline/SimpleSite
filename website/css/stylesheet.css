@@ -1,3 +1,6 @@
+.imagetable {
+    margin-left: 5px;
+}
 
 /*HOMEPAGE GALLERY HOVER*/
 .gallery-image {
@@ -85,8 +88,7 @@ b{
 .project {
     height:450px;
     width:auto;
-    left: -5px;
-    margin-left: 20px;
+    margin-right: 20px;
     margin-top: 12px;
     padding:2px;
     border:1px solid #E8E8E8;
