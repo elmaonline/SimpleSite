@@ -85,6 +85,7 @@ b{
 .project {
     height:450px;
     width:auto;
+    left: 0px;
     margin-left: 20px;
     margin-top: 12px;
     padding:2px;
