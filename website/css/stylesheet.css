@@ -216,15 +216,14 @@ a:active {
 }
 
 
-
+/*ABOUT PAGE*/
 #abouttable {
-    
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
     color: black;
     letter-spacing: 0.1px;
     line-height: 1.5em;
-    font-size: 8px;
+    font-size: 5px;
     text-align: left;
     font-weight: 300;
     display: inline;
