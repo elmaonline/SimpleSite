@@ -254,7 +254,19 @@ height: 158px;
 max-height: 158px;*/
 }
 
-
+.aboutcopyfirst {
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 11px;
+    font-weight: normal;
+    margin-top: 0px;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
 
 /*
 p{
