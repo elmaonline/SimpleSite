@@ -217,6 +217,12 @@ a:active {
 
 
 /*ABOUT PAGE*/
+div p {
+	position: relative;
+	margin-top: 40px;
+	font-size: 12px;
+}
+
 
 .aboutcopy {
     margin-right:20px;
