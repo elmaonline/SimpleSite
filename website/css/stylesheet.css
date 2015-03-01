@@ -1,3 +1,8 @@
+
+.aboutrow{
+    border-left: 0px;
+}
+
 /*HOMEPAGE GALLERY HOVER*/
 .gallery-image {
     width: 300px;
