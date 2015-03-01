@@ -218,6 +218,7 @@ a:active {
 
 /*ABOUT PAGE*/
 div p {
+    display: inline-block;
 	position: relative;
 	width: 340px;
 }
