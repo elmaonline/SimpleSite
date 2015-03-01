@@ -148,7 +148,7 @@ p{
     text-align: left;
     font-weight: 300;
     margin-top: 0px;
-    margin-left: 12px;
+    margin-left: 0px;
     width:350px;
     height: auto;
 }
@@ -160,7 +160,7 @@ p{
     margin-top: 0px;
 	/*margin-bottom: 50px;*/
 	height: 100px;
-	margin-left: -13px;
+	margin-left: 0px;
 }
 
 #navbar {
