@@ -218,8 +218,19 @@ a:active {
 
 /*ABOUT PAGE*/
 .abouttable {
-    
-    cursor: auto;
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 12px;
+    text-align: left;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-left: 12px;
+    width: 340px;
+    height: auto;
+    /*cursor: auto;
 background: none repeat scroll 0% 0% #FFF;
 position: absolute;
 z-index: 10;
@@ -228,7 +239,7 @@ width: 340px;
 bottom: -168px;
 padding: 0px;
 height: 158px;
-max-height: 158px;
+max-height: 158px;*/
 }
 
 
