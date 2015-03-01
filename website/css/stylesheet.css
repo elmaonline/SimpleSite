@@ -218,9 +218,22 @@ a:active {
 
 
 #abouttable {
-    margin-left: -500px;
+    
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
     display: inline;
+    margin-top: 10px;
+    margin-left: 12px;
+    width:350px;
+    height: 900px;
 }
+
 
 /*
 p{
