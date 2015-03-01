@@ -223,9 +223,9 @@ a:active {
     color: black;
     letter-spacing: 0.1px;
     line-height: 1.5em;
-    font-size: 10px;
+    font-size: 12px;
     text-align: left;
-    font-weight: 400;
+    font-weight: normal;
     margin-top: 0px;
     margin-left: 12px;
     width: 350px;
