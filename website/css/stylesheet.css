@@ -217,7 +217,7 @@ a:active {
 
 
 /*ABOUT PAGE*/
-#abouttable {
+.abouttable {
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
     color: black;
