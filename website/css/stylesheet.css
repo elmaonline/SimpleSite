@@ -216,6 +216,11 @@ a:active {
 }
 
 
+
+#abouttable {
+    width: 300px;
+}
+
 /*
 p{
     font-family:lato, sans-serif;
