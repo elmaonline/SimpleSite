@@ -209,7 +209,7 @@ a:hover {
 
 /* selected link */
 a:active {
-    color: #FD43BD;
+    color: #2B17BF;
     text-decoration: none;
     /*background-color: #2B17BF;*/
     padding:0.3;
