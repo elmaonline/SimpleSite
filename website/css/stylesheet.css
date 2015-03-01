@@ -219,6 +219,7 @@ a:active {
 
 #abouttable {
     margin-left: -500px;
+    display: inline;
 }
 
 /*
