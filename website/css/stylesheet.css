@@ -223,9 +223,13 @@ a:active {
     color: black;
     letter-spacing: 0.1px;
     line-height: 1.5em;
-    font-size: 8px;
-    font-weight: 200px;
+    font-size: 10px;
     text-align: left;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 12px;
+    width: 350px;
+    height: auto;
 }
 
 
