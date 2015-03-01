@@ -217,6 +217,11 @@ a:active {
 
 
 /*ABOUT PAGE*/
+
+.aboutcopy {
+    margin-left:20px;
+}
+
 .abouttable {
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
@@ -242,9 +247,7 @@ height: 158px;
 max-height: 158px;*/
 }
 
-.aboutcopy {
-    margin-left:7px;
-}
+
 
 /*
 p{
