@@ -240,6 +240,7 @@ div p {
     margin-right: 20px;
     width: 340px;
     height: auto;
+    display: inline-block;
     /*cursor: auto;
 background: none repeat scroll 0% 0% #FFF;
 position: absolute;
