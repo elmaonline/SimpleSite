@@ -1,6 +1,7 @@
 
 .aboutrow{
-    border-left: 0px;
+    /*border-left: 0px;*/
+    padding-left:0px;
 }
 
 /*HOMEPAGE GALLERY HOVER*/
