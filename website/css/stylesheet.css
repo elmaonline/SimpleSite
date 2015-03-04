@@ -191,7 +191,7 @@ li {
 	padding: 3px;
 }
 
-#copyright {
+.copyright {
     font-family: lato, sans-serif;
     font-size: 8px;
     font-weight: 400;
@@ -234,12 +234,13 @@ a:active {
 }
 
 
-/*ABOUT PAGE*/
+/*ABOUT PAGE
 div p {
     display: inline-block;
 	position: relative;
 	width: 340px;
 }
+*/
 
 
 .aboutcopy {
