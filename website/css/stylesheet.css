@@ -234,7 +234,7 @@ a:active {
 	
     font-family: lato, sans-serif;
     font-size: 8px;
-    font-weight: 100;
+    font-weight: 300;
     color: #CECECF;
     letter-spacing: 0.3px;
     margin-left: 0px;
@@ -244,7 +244,7 @@ a:active {
     height:30px;
     position:absolute;
     bottom:10px;
-    left:5px;
+    left:10px;
     background: white;
 }
 
