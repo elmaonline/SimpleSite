@@ -193,7 +193,7 @@ li {
 	padding: 3px;
 }
 
-#projectdescription { 
+#projectdescription p { 
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
     color: black;
@@ -208,7 +208,7 @@ li {
     height: auto;
 }
 
-.copyright {
+.copyright p {
     font-family: lato, sans-serif;
     font-size: 8px;
     font-weight: 100;
@@ -260,7 +260,7 @@ div p {
 */
 
 
-#aboutcopy {
+#aboutcopy p {
     margin-right:20px;
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
@@ -304,7 +304,7 @@ height: 158px;
 max-height: 158px;*/
 }
 
-.aboutcopyfirst {
+.aboutcopyfirst p {
     font-family: lato, sans-serif;
     /*text-transform: uppercase;*/
     color: black;
