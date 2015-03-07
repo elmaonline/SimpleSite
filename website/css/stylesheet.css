@@ -235,8 +235,7 @@ a:active {
     height:30px;
     position:absolute;
     bottom:0;
-    left:0;
-    margin-left: 10px;
+    left:5px;
     background: white;
 }
 
