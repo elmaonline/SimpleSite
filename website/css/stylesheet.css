@@ -189,7 +189,7 @@ li {
 	font-size: 10px;
 	letter-spacing: 0.1px;
 	/*color: #2B17BF;*/
-	color: #FD43BD
+	/*color: #FD43BD*/
 	/*#5C5C5C*/;
 	padding: 3px;
 }
@@ -197,7 +197,7 @@ li {
 /*MENU STATES/*
 /* unvisited link */
 a:link {
-    color: #2E2E2E;
+    color: #2B17BF;
     text-decoration: none;
 }
 
