@@ -193,35 +193,6 @@ li {
 	padding: 3px;
 }
 
-#projectdescription { 
-    font-family: lato, sans-serif;
-    /*text-transform: uppercase;*/
-    color: black;
-    letter-spacing: 0.1px;
-    line-height: 1.5em;
-    font-size: 10px;
-    text-align: left;
-    font-weight: 300;
-    top: 10px;
-    /*margin-top: 0px;*/
-    margin-left: 10px;
-    width:350px;
-    height: auto;
-}
-
-#copyright {
-    font-family: lato, sans-serif;
-    font-size: 8px;
-    font-weight: 100;
-    color: #CECECF;
-    letter-spacing: 0.3px;
-    margin-left: 10px;
-    margin-top: 0px;
-    padding-left: 0px;
-    width:450px;"
-}
-
-
 /*MENU STATES/*
 /* unvisited link */
 a:link {
@@ -252,14 +223,65 @@ a:active {
 }
 
 
-/*ABOUT PAGE
-div p {
+#footer{
+	height: 50px; 
+	background: blue;
+	position: absolute; /*tells the browser to position #footer relative to #wrapper*/
+	bottom: 3; /*#sticks the footer 3px above the bottom edges of the #wrapper div*/
+	width: inherit;
+	text-align: center;
+}
+
+#wrapper{
+	border: 1px solid black;
+	width: 600px; 
+	margin-left: auto;
+	margin-right: auto; 
+	position: relative; /*/make #wrapper position non-static*/
+	min-height: 99%;
+}
+
+/*PROJECTS PAGES*/
+#projectdescription { 
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    top: 10px;
+    /*margin-top: 0px;*/
+    margin-left: 10px;
+    width:350px;
+    height: auto;
+}
+
+#copyright {
+    font-family: lato, sans-serif;
+    font-size: 8px;
+    font-weight: 100;
+    color: #CECECF;
+    letter-spacing: 0.3px;
+    margin-left: 10px;
+    margin-top: 0px;
+    padding-left: 0px;
+    width:450px;"
+}
+
+
+
+
+
+/*ABOUT PAGE*/
+
+/*div p {
     display: inline-block;
 	position: relative;
 	width: 340px;
 }
 */
-
 
 #aboutcopy {
     margin-right:20px;
@@ -275,7 +297,6 @@ div p {
     margin-left: 0px;
     width:350px;
     height: auto;
-
 }
 
 .abouttable {
@@ -294,15 +315,15 @@ div p {
 	position: relative;
 }
     /*cursor: auto;
-background: none repeat scroll 0% 0% #FFF;
-position: absolute;
-z-index: 10;
-left: 0px;
-width: 340px;
-bottom: -168px;
-padding: 0px;
-height: 158px;
-max-height: 158px;*/
+    background: none repeat scroll 0% 0% #FFF;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    width: 340px;
+    bottom: -168px;
+    padding: 0px;
+    height: 158px;
+    max-height: 158px;*/
 }
 
 .aboutcopyfirst {
@@ -318,6 +339,11 @@ max-height: 158px;*/
     position: relative;
     display: inline-block;
 }
+
+
+
+
+
 
 /*
 p{
