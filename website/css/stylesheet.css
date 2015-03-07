@@ -138,9 +138,10 @@ h2{
     margin-left: 12px;
 }
 
+/*
 p{
     font-family: lato, sans-serif;
-    /*text-transform: uppercase;*/
+    /*text-transform: uppercase;
     color: black;
     letter-spacing: 0.1px;
     line-height: 1.5em;
@@ -152,6 +153,7 @@ p{
     width:350px;
     height: auto;
 }
+*/
 
 
 
@@ -189,6 +191,21 @@ li {
 	/*color: #FD43BD*/
 	/*#5C5C5C*/;
 	padding: 3px;
+}
+
+#projectdescription { 
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 0px;
+    width:350px;
+    height: auto;
 }
 
 .copyright {
@@ -243,8 +260,21 @@ div p {
 */
 
 
-.aboutcopy {
+#aboutcopy {
     margin-right:20px;
+    font-family: lato, sans-serif;
+    /*text-transform: uppercase;*/
+    color: black;
+    letter-spacing: 0.1px;
+    line-height: 1.5em;
+    font-size: 10px;
+    text-align: left;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-left: 0px;
+    width:350px;
+    height: auto;
+
 }
 
 .abouttable {
