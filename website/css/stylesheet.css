@@ -185,8 +185,8 @@ li {
 	display: inline;
 	font-family: playfair display, serif;
 	font-weight: 400;
-	text-transform: uppercase /*uppercase;*/;
-	font-size: 10px;
+	text-transform: none /*uppercase;*/;
+	font-size: 15px;
 	letter-spacing: 0.1px;
 	/*color: #2B17BF;*/
 	/*color: #FD43BD*/
