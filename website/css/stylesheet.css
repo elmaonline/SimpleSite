@@ -227,16 +227,15 @@ a:active {
 	/*height: 50px; 
 	background: white;
 	position: absolute; tells the browser to position #footer relative to #wrapper*/
-	bottom: 3; /*#sticks the footer 3px above the bottom edges of the #wrapper div
+	/*bottom: 3; /*#sticks the footer 3px above the bottom edges of the #wrapper div
 	width: inherit;
 	text-align: center;*/
 	
 	width:100%;
-    height:80px;
+    height:30px;
     position:absolute;
     bottom:0;
     left:0;
-    background:#ee5;
 }
 
 #wrapper{
