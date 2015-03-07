@@ -88,7 +88,7 @@ b{
 }
 
 .imagetable {
-    margin-left: 10px;
+    margin-left: 12px;
 }
 
 .project {
@@ -121,7 +121,7 @@ h1{
     color:#000000;
     text-align: left;
     font-weight: 500;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-top: 20px;
 }
 
@@ -265,7 +265,7 @@ a:active {
     font-weight: 300;
     top: 10px;
     /*margin-top: 0px;*/
-    margin-left: 0px;
+    margin-left: 10px;
     width:350px;
     height: auto;
 }
@@ -276,7 +276,7 @@ a:active {
     font-weight: 100;
     color: #CECECF;
     letter-spacing: 0.3px;
-    margin-left: 15px;
+    margin-left: 20px;
     margin-top: 0px;
     padding-left: 0px;
     width:450px;"
