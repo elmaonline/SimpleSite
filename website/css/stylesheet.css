@@ -225,7 +225,7 @@ a:active {
 
 #footer{
 	height: 50px; 
-	background: blue;
+	background: white;
 	position: absolute; /*tells the browser to position #footer relative to #wrapper*/
 	bottom: 3; /*#sticks the footer 3px above the bottom edges of the #wrapper div*/
 	width: inherit;
@@ -233,11 +233,11 @@ a:active {
 }
 
 #wrapper{
-	border: 1px solid black;
+	border: 0px white;
 	width: 600px; 
 	margin-left: auto;
 	margin-right: auto; 
-	position: relative; /*/make #wrapper position non-static*/
+	/*position: relative; /make #wrapper position non-static*/
 	min-height: 99%;
 }
 
