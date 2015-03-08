@@ -244,6 +244,7 @@ a:active {
     width:450px;"
     height:30px;
     position:absolute;
+	display: inline-block;
     bottom:10px;
     left:0px;
     background: transparent;
