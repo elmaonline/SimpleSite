@@ -252,7 +252,9 @@ a:active {
 .socialicons {
     height: 25px; 
     width: 125px; 
-    margin-left: 20px;
+    margin-left: 30px;
+    position: relative;
+    left:0px;
 }
 
 #wrapper{
