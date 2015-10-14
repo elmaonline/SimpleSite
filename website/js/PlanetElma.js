@@ -53,6 +53,8 @@ PlanetElma.prototype.displayImages = function (data) {
 
 PlanetElma.prototype.SelectImage = function (id) {
 
+    console.log('select image:'+id);
+    
     var that = this;
 
     this.dataManager.GetImagesByParentId(id, function(data){
