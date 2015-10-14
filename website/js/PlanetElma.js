@@ -99,9 +99,9 @@ PlanetElma.prototype.SelectMenu = function (evt) {
 
     if(evt == undefined) return ;
     
-    var res =  updateQryString(window.location,'menu',evt);
+    var res =  updateQryString(window.location.search,'menu',evt);
     
-    window.location = res;
+    window.location.search = res;
     
     this.dataManager.GetImagesByMenuId(evt, function(data){
         that.displayImages(data);
