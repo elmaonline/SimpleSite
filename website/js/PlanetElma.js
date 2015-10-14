@@ -38,7 +38,7 @@ PlanetElma.prototype.displayImages = function (data) {
     
     $.each( data, function( key, val ) {		
 			newInner+= '<div style="display: inline">' ;
-			newInner+= '<a id ="image'+ key + '" href="" class ="frame"><img id ="i'+ key +'"  data-id = "'+ val.cId +'" src="'+ that.imageUrl+val.imageName + ' class = "thumb" "></a>';			
+			newInner+= '<a id ="image'+ key + '" href="" class ="frame"><img id ="i'+ key +'"  data-id = "'+ val.cId +'" src="'+ that.imageUrl+val.imageName + '" class = "thumb" ></a>';			
 	        newInner+= '</div>' ;
         
     });
