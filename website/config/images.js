@@ -236,8 +236,135 @@
   {
     "_id": "53e6ce3de4b042a207c66b5c",
     "cId": 14,
-    "description": "bantam stuff",
-    "imageName": "bantam.JPG",
+    "description": "Strad Feature 1",
+    "imageName": "strad_feat1.png",
+    "menuId": 10,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  }
+  ,
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 15,
+    "description": "Strad Feature 2",
+    "imageName": "strad_feat2.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 16,
+    "description": "Strad Feature 3",
+    "imageName": "strad_feat3.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 17,
+    "description": "Strad Feature 4",
+    "imageName": "strad_feat4.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 18,
+    "description": "Strad Feature 5",
+    "imageName": "strad_feat1.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 19,
+    "description": "Strad Feature 6",
+    "imageName": "strad_feat2.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 20,
+    "description": "Strad Feature 7",
+    "imageName": "strad_feat3.png",
+    "menuId": 2,
+    "parentCId": 4,
+    "responseId": 0,
+    "lImage": {
+      "name": "bantam.JPG",
+      "x": 300,
+      "y": 600
+    },
+    "contentDim": {
+      "x": 300,
+      "y": 600
+    }
+  },
+  {
+    "_id": "53e6ce3de4b042a207c66b5c",
+    "cId": 21,
+    "description": "Strad Feature 8",
+    "imageName": "strad_feat4.png",
     "menuId": 2,
     "parentCId": 4,
     "responseId": 0,
@@ -251,4 +378,6 @@
       "y": 600
     }
   }
+  
+  
 ]
