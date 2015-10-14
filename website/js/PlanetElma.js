@@ -82,14 +82,33 @@ PlanetElma.prototype.LoadMenus = function (parentId) {
 };
 
 PlanetElma.prototype.SelectMenu = function (evt) {
-
+    /*MOVE TO OR CALL FROM LIBS*/
+    var updateQryString = function updateQueryStringParameter(uri, key, value) {
+          var re = new RegExp("([?&])" + key + "=.*?(&|$)", "i");
+          var separator = uri.indexOf('?') !== -1 ? "&" : "?";
+          if (uri.match(re)) {
+            return uri.replace(re, '$1' + key + "=" + value + '$2');
+          }
+          else {
+            return uri + separator + key + "=" + value;
+          }
+    };
+    
     var that = this;
     console.log('select menu:'+evt);
 
     if(evt == undefined) return ;
     
+    var res =  updateQryString(window.location,'menu',evt);
+    
+    window.location = res;
+    
     this.dataManager.GetImagesByMenuId(evt, function(data){
         that.displayImages(data);
     });
-     
+    
+    
+  
 };
+
+

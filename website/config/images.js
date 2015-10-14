@@ -347,7 +347,7 @@
     "cId": 20,
     "description": "Strad Feature 7",
     "imageName": "strad_feat3.png",
-    "menuId": 10,
+    "menuId": 11,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -365,7 +365,7 @@
     "cId": 21,
     "description": "Strad Feature 8",
     "imageName": "strad_feat4.png",
-    "menuId": 10,
+    "menuId": 11,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
