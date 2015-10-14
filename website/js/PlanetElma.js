@@ -37,13 +37,16 @@ PlanetElma.prototype.displayImages = function (data) {
     var newInner = "";
     
     $.each( data, function( key, val ) {		
-			newInner+= '<div style="display: inline">' ;
-			newInner+= '<a id ="image'+ key + '" href="" class ="frame"><img id ="i'+ key +'"  data-id = "'+ val.cId +'" src="'+ that.imageUrl+val.imageName + '" class = "thumb" ></a>';			
-	        newInner+= '</div>' ;
-        
+// 			newInner+= '<div style="display: inline">' ;
+// 			newInner+= '<a id ="image'+ key + '" href="" class ="frame"><img id ="i'+ key +'"  data-id = "'+ val.cId +'" src="'+ that.imageUrl+val.imageName + '" class = "thumb" ></a>';			
+// 	        newInner+= '</div>' ;
+
+        	newInner+= '<div class ="col">' ;
+ 			newInner+= '<a id ="image'+ key + '" href=""><img id ="i'+ key +'"  data-id = "'+ val.cId +'" src="'+ that.imageUrl+val.imageName + '" class = "thumb" ></a>';			
+ 	        newInner+= '</div>' ;
     });
 	  
-    $('#gallery-container').html(newInner);
+    $('#base-container').html(newInner);
 };
 
 
