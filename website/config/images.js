@@ -257,7 +257,7 @@
     "cId": 15,
     "description": "Strad Feature 2",
     "imageName": "strad_feat2.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -275,7 +275,7 @@
     "cId": 16,
     "description": "Strad Feature 3",
     "imageName": "strad_feat3.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -293,7 +293,7 @@
     "cId": 17,
     "description": "Strad Feature 4",
     "imageName": "strad_feat4.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -311,7 +311,7 @@
     "cId": 18,
     "description": "Strad Feature 5",
     "imageName": "strad_feat1.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -329,7 +329,7 @@
     "cId": 19,
     "description": "Strad Feature 6",
     "imageName": "strad_feat2.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -347,7 +347,7 @@
     "cId": 20,
     "description": "Strad Feature 7",
     "imageName": "strad_feat3.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
@@ -365,7 +365,7 @@
     "cId": 21,
     "description": "Strad Feature 8",
     "imageName": "strad_feat4.png",
-    "menuId": 2,
+    "menuId": 10,
     "parentCId": 4,
     "responseId": 0,
     "lImage": {
